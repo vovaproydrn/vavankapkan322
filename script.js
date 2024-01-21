@@ -11,8 +11,29 @@ links.forEach(function (element) {
         })
     })
 })
-
-function g(){
-let a =  document.getElementById("p").alert('ты чего, в магадане живет только рома!')
-document.getElementById("p").innerHTML = a;
+let bt1 = document.querySelector('.button1');
+function oneclick(){
+    let p1 = document.querySelector('.magadan');
+    p1.innerHTML ='ты чего!? в магадане живет только роман';
+    
 }
+bt1.addEventListener('click', oneclick);
+
+
+
+let bt2 = document.querySelector('.button2');
+function oneclick1(){
+    let p1 = document.querySelector('.fact1');
+    p1.innerHTML ='я крут';
+    
+}
+bt2.addEventListener('click', oneclick1);
+
+
+let bt3 = document.querySelector('.button7');
+function oneclick2(){
+    let p1 = document.querySelector('.fact2');
+    p1.innerHTML ='не придумал';
+    
+}
+bt3.addEventListener('click', oneclick2);
